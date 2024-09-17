@@ -1,22 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-h1, h2{
+
+h1,
+h2 {
     padding: 1rem;
     font-size: 1.1rem;
 }
-body{
+
+body {
     display: grid;
     grid-template: auto auto auto / auto auto auto;
 }
-header{
+
+header {
     background: grey;
     color: white;
     grid-column: 1 /4;
     height: 150px;
 }
-nav{
+
+nav {
     display: flex;
     background: black;
     color: white;
@@ -24,17 +29,20 @@ nav{
     height: 50px;
     margin-top: 50px;
 }
-a{
+
+a {
     text-align: center;
     flex: 1 1 100%;
 }
-main{
+
+main {
     background: lightgrey;
     grid-column: 1 /3;
     color: grey;
     height: 300px;
 }
-footer{
+
+footer {
     background: gray;
     grid-column: 1/4;
     text-align: center;
