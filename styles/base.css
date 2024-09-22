@@ -46,6 +46,9 @@ section {
     border: 1px solid var(--light_green);
     border-radius: 2px;
 }
+img {
+    width: 100px;
+}
 h2 {
     background-color: var(--dark_green);
     color: #FEFAE0;
