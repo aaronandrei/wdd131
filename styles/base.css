@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@200;300;400;500;600;700;800&family=Sigmar&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --light_green: #606C38;
+    --dark_green: #283618;
+    --beige: #FEFAE0;
+    --light_orange: #DDA15E;
+    --dark_orange: #BC6C25;
+}
+header {
+    text-align: center;
+    background-color: #FEFAE0;
+    font-family: sigmar, sans-serif, trebuchet;
+    letter-spacing: 3px;
+}
+body {
+    font-family: 'mukta mahee', sans-serif;
+    color: var(--dark_green);
+}
+nav {
+background-color: var(--light_green);
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+nav a {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--beige);
+}
+nav a:hover {
+    border: 1px solid #fff;
+    background-color: var(--dark_orange);
+}
+section {
+    padding: 1rem;
+    border: 1px solid var(--light_green);
+    border-radius: 2px;
+}
+h2 {
+    background-color: var(--dark_green);
+    color: #FEFAE0;
+}
+footer {
+    background-color: var(--light_green);
+    color: var(--beige);
+    text-align: center;
+}
