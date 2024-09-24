@@ -1,0 +1,37 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+header {
+    max-width: 640px;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: .5px solid #000;
+    border-radius: .5rem;
+    background: #4CC9F0;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 640px;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: .5px solid #000;
+    border-radius: .5rem;
+    background: #4CC9F0;
+}
+footer {
+    max-width: 640px;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: .5px solid #000;
+    border-radius: .5rem;
+    background: #4CC9F0;
+}
+section {
+    padding: 1rem;
+    background: #F1FFE7;
+}
