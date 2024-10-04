@@ -1,3 +1,4 @@
+// select the DOM elements for output
 const full = document.querySelector("#full");
 const worldfull = document.querySelector("#world-full");
 const short = document.querySelector("#short");
