@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
+/* :root {
+
+} */
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    flex: 1 1 100%;
+    display: block;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
