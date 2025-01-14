@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+/* https://coolors.co/002642-840032-e59500-e5dada-02040f */
 
-/* :root {
+* {
+    margin: 0;
+}
+:root {
+    --blue: #002642;
+    --red: #840032;
+    --yellow: #E59500;
+    --white: #E5DADA;
+    --black: #02040F;
+}
 
-} */
-
+body {
+    display: block;
+}
 h1 {
     text-align: center;
 }
@@ -17,7 +28,13 @@ nav a {
     display: block;
     text-align: center;
 }
-
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1r;
+    gap: 0.5rem;
+}
 footer p {
     text-align: center;
 }
