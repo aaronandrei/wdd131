@@ -127,6 +127,7 @@ figcaption {
     flex-direction: column;
     justify-content: center;
     height: 75%;
+    line-height: 2rem;
 }
 
 footer {
