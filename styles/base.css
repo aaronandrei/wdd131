@@ -73,7 +73,7 @@ h2 {
 
 .card {
     display: block;
-    border: 2px solid var(--yellow);
+    border: 1.5px solid var(--yellow);
     border-radius: .5rem;
 }
 
