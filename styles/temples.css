@@ -5,11 +5,17 @@
     --green: #CCF5AC;
 }
 
+* {
+    margin: 0;
+}
+
+html,
 body {
+    height: 100%;
     margin: 0;
     padding: 0;
     font-family: Manrope, Trebuchet;
-    display: block;
+    /* display: block; */
 }
 
 header {
@@ -29,14 +35,36 @@ h1 {
     font-size: 2.2rem;
 }
 
+#hambutton {
+    display: block;
+    font-size: 2rem;
+    background-color: var(--black);
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 0 auto;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 1rem;
+}
+
+#hambutton::before {
+    content: "☰";
+}
+
+#hambutton.show::before {
+    content: "x";
+}
+
 nav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: right;
 }
 
 nav a {
-    display: block;
+    display: none;
     color: var(--darkblue);
     text-decoration: none;
     padding: 1rem;
@@ -49,9 +77,27 @@ nav a:hover {
     background-color: var(--green);
 }
 
+nav a:hover~#navmenu~#hambutton {
+    background-color: var(--green);
+    color: var(--black);
+}
+
+nav.show {
+    width: 100%;
+}
+
+h1.show {
+    display: none;
+}
+
+.show a {
+    display: block;
+    text-align: center;
+}
+
 main {
     max-width: 900px;
-    margin: 0 auto;
+    margin: 1.2rem auto;
     padding: 1rem;
 }
 
