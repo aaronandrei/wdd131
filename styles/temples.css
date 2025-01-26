@@ -42,7 +42,7 @@ h1 {
     text-decoration: none;
     color: white;
     border: none;
-    padding: 0 auto;
+    padding: 1rem auto;
     cursor: pointer;
     position: absolute;
     top: 0;
