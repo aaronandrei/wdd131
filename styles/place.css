@@ -1,0 +1,37 @@
+:root {
+    --brown: #813405;
+    --orange: #D45113;
+    --mustard: #F9A03F;
+    --tan: #F8DDA4;
+    --seaform: #DDF9C1;
+    --font: 'Funnel Display'
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+    background-color: #fbebce;
+}
+
+h1 {
+    color: var(--brown);
+    text-align: center;
+    padding: 1rem;
+    font-size: 3.2rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    color: var(--brown);
+    text-align: center;
+    padding: 1rem;
+}
