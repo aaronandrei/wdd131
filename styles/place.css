@@ -67,17 +67,6 @@ h2 {
     text-align: left;
 }
 
-.weatherbox h2::after {
-    content: "☀️";
-    position: absolute;
-    right: 2rem;
-    top: 1rem;
-}
-
-.icon {
-    display: none;
-}
-
 footer {
     text-align: center;
     padding: 1rem;

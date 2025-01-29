@@ -24,4 +24,14 @@
         right: 2rem;
         opacity: .9;
     }
+    .weatherbox h2::after {
+        content: "☀️";
+        position: absolute;
+        right: 2rem;
+        top: 1rem;
+    }
+    
+    .icon {
+        display: none;
+    }
 }
