@@ -1,0 +1,27 @@
+@media (min-width: 600px) {
+    h1 {
+        font-size: 3.2rem;
+    }
+
+    main {
+        position: relative;
+    }
+
+    .databox {
+        border: 1px solid var(--brown);
+        border-radius: 5px;
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        opacity: .9;
+    }
+
+    .weatherbox {
+        border: 1px solid var(--brown);
+        border-radius: 5px;
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+        opacity: .9;
+    }
+}

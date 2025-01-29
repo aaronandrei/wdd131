@@ -27,12 +27,55 @@ footer {
 h1 {
     text-align: center;
     padding: 1rem;
-    font-size: 3.2rem;
+    font-size: 2.2rem;
 }
 
 img {
     width: 100%;
     height: auto;
+}
+
+h2 {
+    padding: 1rem;
+    background-color: var(--brown);
+    color: white;
+}
+
+.databox,
+.weatherbox {
+    background-color: var(--seaform);
+    text-align: center;
+}
+
+.icon {
+    max-width: 50px;
+    padding-top: 15px;
+}
+
+.table {
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
+
+.label {
+    text-align: right;
+}
+
+.value {
+    text-align: left;
+}
+
+.weatherbox h2::after {
+    content: "☀️";
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+}
+
+.icon {
+    display: none;
 }
 
 footer {
