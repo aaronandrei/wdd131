@@ -1,0 +1,33 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+main {
+    width: 800px;
+    padding: 1rem;
+}
+
+h1,
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+img {
+    display: block;
+    padding: 1rem;
+    align-content: center;
+    background-color: #000;
+    animation: fade 15s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
