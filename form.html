@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Assignment</title>
+    <meta name="description" content="Assignment of a form example to show knowledge and proficiency with forms.">
+    <meta name="author" content="Aaron Andrei M">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html">
+            <fieldset>
+                <label>Product Name
+                    <select name="product" id="product" required>
+                        <option value="">Choose a Product...</option>
+                    </select>
+                </label>
+                <div>Overall Rating</div>
+                <label><input type="radio" name="rating" id="1star" value="1star" required>&star;</label>
+                <label><input type="radio" name="rating" id="2star" value="2star" required>&star;&star;</label>
+                <label><input type="radio" name="rating" id="3star" value="3star" required>&star;&star;&star;</label>
+                <label><input type="radio" name="rating" id="4star" value="4star"
+                        required>&star;&star;&star;&star;</label>
+                <label><input type="radio" name="rating" id="5star" value="5star"
+                        required>&star;&star;&star;&star;&star;</label>
+
+                <label>Date of Installation<input type="date" id="dateInstall" name="dateInstall" required></label>
+
+                <div>Which features did you find useful in the product?</div>
+                <label><input type="checkbox" name="durable" id="durable" value="yes">Durability</label>
+                <label><input type="checkbox" name="ease" id="ease" value="yes">Ease of Use</label>
+                <label><input type="checkbox" name="perform" id="perform" value="yes">Performance</label>
+                <label><input type="checkbox" name="design" id="design" value="yes">Design</label>
+
+                <div>Written Review (Optional)</div>
+                <label><input type="textarea" name="review" id="review"></label>
+
+                <div>Your Name (Optional)</div>
+                <label><input type="text" name="name" id="name"></label>
+
+            </fieldset>
+            <input type="submit" value="Post Review">
+        </form>
+    </main>
+    <footer>
+        <p>
+            <span id="currentYear">&copy;2025</span> | Aaron Andrei M | USA
+        </p>
+        <p class="highlight" id="lastModified">Last Modification: 01/13/2025 09:48:00</p>
+    </footer>
+</body>
+
+</html>
