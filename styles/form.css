@@ -62,6 +62,10 @@ div {
     height: 1.2rem;
 }
 
+.review select {
+    height: 3rem;
+}
+
 input[type="checkbox"] {
     padding: 0;
 }
@@ -81,6 +85,10 @@ footer {
     padding: 1rem;
     text-align: center;
     margin-top: 2rem;
+}
+
+.review input[type="textarea"] {
+    height: 5rem;
 }
 
 .review input[type="submit"] {
