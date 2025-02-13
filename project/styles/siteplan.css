@@ -3,7 +3,7 @@
     --white: #FFFCF2;
     --grey: #403D39;
     --black: #252422;
-    --lavendar: #7678ED;
+    --lavender: #7678ED;
     /* --gold: #B29252; */
     /* --grey: #424B54; */
     /* --white: #ffffff; */
@@ -63,4 +63,34 @@ figcaption {
     padding: 0 0 2rem 0;
     margin-top: -1rem;
     font-size: .7rem;
+}
+
+.gold {
+    background-color: var(--gold);
+    color: #000;
+    border: 1px solid var(--black);
+}
+
+.white {
+    background-color: var(--white);
+    color: var(--gold);
+    border: 1px solid var(--gold);
+}
+
+.grey {
+    background-color: var(--grey);
+    color: var(--white);
+    border: 1px solid var(--black);
+}
+
+.black {
+    background-color: var(--black);
+    color: var(--white);
+    border: 1px solid var(--gold);
+}
+
+.lavender {
+    background-color: var(--lavender);
+    color: #000;
+    border: 1px solid var(--black);
 }
