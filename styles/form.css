@@ -87,8 +87,10 @@ footer {
     margin-top: 2rem;
 }
 
-.review input[type="textarea"] {
+textarea {
     height: 5rem;
+    width: 100%;
+    padding: 0 0 2rem 0;
 }
 
 .review input[type="submit"] {
