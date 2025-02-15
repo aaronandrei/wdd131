@@ -61,7 +61,7 @@
     background-color: var(--lavender);
 }
 
-@media (max-width:750px) {
+@media (max-width:550px) {
     .header {
         flex-direction: column;
     }
