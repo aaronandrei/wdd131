@@ -100,6 +100,11 @@
 }
 
 .hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     width: 500px;
     position: absolute;
     top: 50%;
@@ -128,4 +133,131 @@ footer {
     color: var(--white);
     padding: 1rem;
     margin: 0;
+}
+
+/* Form styling */
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 2rem;
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-form h2 {
+    color: var(--gold);
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.contact-form h3 {
+    font-style: normal;
+}
+
+.contact-form label {
+    display: block;
+    margin: 30px 0 5px;
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--grey);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.contact-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: var(--gold);
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: var(--lavender);
+}
+
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(gret);
+    border-radius: 4px;
+    font-size: 1rem;
+    resize: vertical;
+}
+
+/* About Us Page Styling */
+body {
+    font-family: var(--font);
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.about {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.about p {
+    font-size: 2rem;
+    color: var(--grey);
+    padding: 1rem;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.flex-container img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.text-content {
+    width: 50%;
+}
+
+.text-content h2 {
+    font-size: 2rem;
+    color: var(--black);
+    padding: 1rem;
+}
+
+.text-content p {
+    font-size: 2rem;
+    color: var(--grey);
+    padding: 1rem;
 }
