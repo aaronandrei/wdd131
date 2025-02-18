@@ -1,4 +1,4 @@
-:root:root {
+:root {
     --gold: #B29252;
     --white: #FFFCF2;
     --grey: #403D39;
@@ -17,7 +17,7 @@
 .header {
     display: flex;
     align-items: center;
-    background-color: var(--gold);
+    background-color: var(--grey);
     color: var(--white);
     justify-content: space-between;
     padding: 10px 30px 10px;
@@ -67,22 +67,35 @@
     background-color: var(--white);
 }
 
+.hamburger {
+    display: none;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
 @media (max-width: 600px) {
     .header {
         flex-direction: column;
     }
 
-    nav {
-        width: 100%;
-    }
-
     .nav-links {
+        display: none;
         flex-direction: column;
         text-align: center;
         gap: 10px;
+        width: 100%;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links.active {
+        display: flex;
     }
 
 }
+
 
 .hero img {
     width: 100%;
@@ -124,7 +137,7 @@
 footer {
     text-align: center;
     font-size: 1.3rem;
-    background-color: var(--gold);
+    background-color: var(--grey);
     color: var(--white);
     padding: 1rem;
     margin: 0;
@@ -174,7 +187,7 @@ footer {
     padding: 10px;
     margin-top: 40px;
     background-color: var(--gold);
-    color: var(--white);
+    color: var(--black);
     border: none;
     border-radius: 4px;
     font-size: 2rem;
@@ -190,7 +203,7 @@ footer {
 .contact-form textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid var(gret);
+    border: 1px solid var(--grey);
     border-radius: 4px;
     font-size: 1rem;
     resize: vertical;

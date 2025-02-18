@@ -31,3 +31,8 @@ window.onload = function () {
     visitElement.textContent = `You have visited this page ${visitCount} times.`;
     document.body.insertBefore(visitElement, document.querySelector(".hero"));
 };
+
+function toggleMenu() {
+    const navLinks = document.getElementById("navLinks");
+    navLinks.classList.toggle("active");
+}
