@@ -72,11 +72,6 @@
         flex-direction: column;
     }
 
-    .site-name {
-        order: 2;
-        margin-bottom: 10px;
-    }
-
     nav {
         width: 100%;
     }
